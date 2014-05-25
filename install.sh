@@ -33,6 +33,6 @@ sudo npm install forever -g
 forever start /home/$USER/website-live-connection-map/socketio/server.js
 
 echo "#########################"
-echo "You now need to edit /var/www/html/conf/conf.php and change the domain the domain name or ip address of your server"
+echo "You now need to edit /var/www/html/conf/conf.php and change connAddr to be the domain name or ip address of your server"
 echo "#########################"
 
