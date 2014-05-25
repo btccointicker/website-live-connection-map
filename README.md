@@ -20,4 +20,6 @@ Please respect the licenses of the people and groups mentioned above.
 
 Hopefully this will be of some use to someone, at the very least as an example of how to use the above technologies. 
 
+Running example can be seen at http://bitcointicker.co/map/
+
 ![alt tag](http://bitcointicker.co/map/map.png)
