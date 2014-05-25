@@ -15,7 +15,7 @@ io.sockets.on('connection', function (socket) {
 	connectCounter++; 
 
 	//on connect send a welcome message
-	socket.emit('message', { 'channel' : 'users',users:result});
+	socket.emit('message', { 'channel' : 'users',users:connectCounter});
 
 	//console.log(socket.handshake.address.address);
 	var socket_ip = (socket.handshake != undefined && socket.handshake.address != undefined) ? socket.handshake.address.address : "IP_ERROR";

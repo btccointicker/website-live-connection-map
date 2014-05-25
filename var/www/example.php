@@ -5,11 +5,12 @@
 //You need the code from here
 ?>
 <?php
-include '../conf/conf.php'
+include 'conf/conf.php'
 ?>
 
 <?php echo '<script>var connAddr = \''.$connAddr .'\';</script>';
 ?>
+<script language="javascript" type="text/javascript" src="http://<?php echo $connAddr ?>/socket.io/socket.io.js"></script>
 <?php echo '<script>conn = io.connect(connAddr,{\'force new connection\': true});</script>';
 ?>
 
