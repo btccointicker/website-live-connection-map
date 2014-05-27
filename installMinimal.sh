@@ -9,7 +9,7 @@
 #
 #
 # This is an amended version of the original install file which runs the socket.io server element within a docker container
-# !!!!!!!!!!!!!! EDIT - This needs more work to allow the containers to talk to each other !!!!!!!!!!!
+# This container links back to the freegeoip container via a docker link
 cd ~
 sudo apt-get -y install docker.io
 sudo docker.io run -d --name freegeoip allingeek/docker-freegeoip

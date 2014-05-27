@@ -23,3 +23,7 @@ Hopefully this will be of some use to someone, at the very least as an example o
 Running example can be seen at http://bitcointicker.co/map/
 
 ![alt tag](http://bitcointicker.co/map/map.png)
+
+The install.sh script gives you an idea of how you can manually install the application, abstracting over the freegeoip install by using a docker image. You can however install freegeoip manually by following the instructions on https://freegeoip.net/. This script has been tested in Ubuntu 14.04. 
+
+installMinimal.sh goes one step further and uses docker to run both freegeoip and the server.js socket.io application within their own docker containers. 
