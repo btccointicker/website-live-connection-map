@@ -9,6 +9,7 @@ RUN sudo apt-get -y  install nodejs-legacy
 RUN sudo npm install forever -g
 
 RUN git clone https://github.com/btccointicker/website-live-connection-map.git /srv
+RUN sed -i 's/localhost:8095/geosrv:8080/g' /srv/socketio/server.js
 RUN touch /srv/socketio/out.log
 
 EXPOSE  8080

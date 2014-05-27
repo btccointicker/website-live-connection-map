@@ -12,8 +12,8 @@
 # !!!!!!!!!!!!!! EDIT - This needs more work to allow the containers to talk to each other !!!!!!!!!!!
 cd ~
 sudo apt-get -y install docker.io
-sudo docker.io run -d -p 8095:8080 allingeek/docker-freegeoip
-sudo docker.io run -d -p 8080:8080 btccointicker/livemap-server
+sudo docker.io run -d --name freegeoip allingeek/docker-freegeoip
+sudo docker.io run -d --link freegeoip:geosrv -p 8080:8080 btccointicker/livemap-server 
 sudo apt-get -y install apache2 php5
 sudo apt-get -y install git
 git clone https://github.com/btccointicker/website-live-connection-map.git
