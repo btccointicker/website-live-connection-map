@@ -2,7 +2,7 @@
 #Example install
 #Taken from a fresh Ubuntu amazon ec2 instance running Ubuntu 14.04
 #This will install to your home directory. For security reasons you may want to create a new user to run docker and socket.io within their own userspace
-#Please use caution when running this in an exising environment, as it is intended to be used in a fresh environment with no existing configuration. 
+#Please use caution when running this in an existing environment, as it is intended to be used in a fresh environment with no existing configuration. 
 #
 #
 #The author DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL the author BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
